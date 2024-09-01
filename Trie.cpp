@@ -12,7 +12,7 @@ struct Trie
     TrieNode *root;
     Trie()
     {
-        new TrieNode();
+        root=new TrieNode();
     }
     // Function to insert a word into the trie
     void insert(const string &word)
